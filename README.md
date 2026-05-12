@@ -1,12 +1,12 @@
-LuxRent | Real Estate Management system
+# LuxRent | Real Estate Management system
 
 LuxRent is a premium real estate platform designed to showcase high-end properties with a focus on elegance and high-performance user interaction. The project currently features a sophisticated frontend architecture built to provide a seamless browsing experience for luxury listings.
 
-Project Overview
+## Project Overview
 
 This repository contains the core structure and design for LuxRent. the aesthetic is tailored for the enterprise real market, utilizes high-contrast visual language to highlight premium listings.
 
-Visual Identity
+## Visual Identity
 
 The interface is built around a **Stone & Amber** design philosophy:
 
@@ -14,7 +14,7 @@ The interface is built around a **Stone & Amber** design philosophy:
 * **Accents:** Radiant golds and warm ambers for call-to-action buttons and key property highlights.
 * **Typography:** Clean, professional sans-serif fonts for maximum readability.
 
-Current Features (Frontend)
+### Current Features (Frontend)
 
 * **Property Showcases:** Elegant grid and list layouts for luxury apartments and estates.
 * **Responsive Layout:** Fully optimized for mobile, tablet, and desktop viewing.
@@ -23,14 +23,14 @@ Current Features (Frontend)
 * **Navigation:** A sleek, fixed header for easy access across the platform.
 
 
-Tech Stack
+## Tech Stack
 
 * **Language:** HTML5
 * **Styling:** CSS3 (incorporating modern layout techniques like Flexbox and Grid)
 * **Icons:** High-quality vector iconography for a modern look.
 
 
-Collaboration & Contribution
+## Collaboration & Contribution
 
 We welcome contributions from the community and the team to help make LuxRent the gold standard for real estate platforms.
 
@@ -59,7 +59,7 @@ Coding Standards
 *   Test responsiveness across multiple screen sizes before submitting.
 
 
-Getting Started
+## Getting Started
 
 Prerequisites
 Any modern web browser (Chrome, Firefox, Safari, or Edge).
@@ -76,19 +76,19 @@ bash
 Simply open the index.html file in your preferred browser to view the current build.
 
 
-Project Structure
+## Project Structure
 
-text
+```text
 LuxRent/
 ├── assets/          # Images, logos, and property media
 ├── css/             # Stylesheets (Stone & Amber theme)
 ├── index.html       # Main landing page
 ├── properties.html  # Listing directory
 └── contact.html     # Inquiry and lead generation page
+```
 
 
-
-Future Roadmap
+## Future Roadmap
 
 * **Dynamic Integration:** Migrating to React and Tailwind CSS for enhanced component reusability.
 * **Backend Integration:** Implementing a Django-based management system for dynamic property listings.
@@ -96,6 +96,6 @@ Future Roadmap
 * **Admin Dashboard:** A secure portal for real estate agents to manage their portfolio.
 
 
-License
+## License
 
 This project is licensed under the MIT License.
