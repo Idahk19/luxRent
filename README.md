@@ -38,22 +38,25 @@ How to Contribute
 
 1. **Fork the Repository:** Create your own copy of the project to work on.
 2. **Create a Feature Branch:**
-bash
-git checkout -b feature/AmazingFeature
+```bash
+git checkout -b feature/AmazingFeature 
+```
 
 
 3. **Commit Your Changes:**
 
-bash
+```bash
     git commit -m 'Add some AmazingFeature'
+```
 
 4.  **Push to the Branch:**
-bash
+```bash
     git push origin feature/AmazingFeature
+```
 
 5.  **Open a Pull Request:** Describe your changes and submit for review.
 
-Coding Standards
+## Coding Standards
 *   Ensure all HTML is semantic and well-commented.
 *   Maintain the **Stone & Amber** color palette for all UI additions.
 *   Test responsiveness across multiple screen sizes before submitting.
@@ -64,12 +67,13 @@ Coding Standards
 Prerequisites
 Any modern web browser (Chrome, Firefox, Safari, or Edge).
 
-Installation
+### Installation
 1. **Clone the repository:**
    
-bash
+```bash
    git clone https://github.com/Kwanusu/luxrent.git
    cd luxrent
+```
 
 
 2. **Open the project:**
