@@ -1,0 +1,93 @@
+
+/*Types of css selectors*/
+/*Universal selector*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial ;
+}
+/*Element selector*/
+button{
+    padding: 4px;
+    background-color: blue;
+    color: white;
+    margin: 4px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+body {
+    background-color:black; 
+    color: darkgrey;
+}
+
+p { 
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    font-style: italic;
+
+}
+
+h1 { 
+    
+    color: aqua;
+    font-style: normal;
+} 
+
+h2 {
+    
+    color: beige;
+}
+
+h3 {
+    
+    color: blueviolet;
+}
+
+img {
+    width: 300px; 
+    height: 300px;
+    border-radius:50% ; 
+}
+/*class selector*/
+.container{
+    border: 1px solid red;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(24, 226, 226);
+}
+.logo-text{
+    font: bold;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center; 
+   
+} 
+a{
+    text-decoration: none;
+}
+
+/*id selector*/
+
+#portfolio{
+    border: 6px dotted green;
+}
+
+/*attribute selector*/
+
+a[href]{
+    color: white;
+}
+
+/*descendant selector*/
+
+div h4{
+color: red;
+}
+/*child selector*/
+div > p {
+    color: aqua;
+}
+
