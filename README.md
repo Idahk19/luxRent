@@ -67,7 +67,7 @@ git checkout -b feature/AmazingFeature
 Prerequisites
 Any modern web browser (Chrome, Firefox, Safari, or Edge).
 
-### Installation
+###Installation
 1. **Clone the repository:**
    
 ```bash
